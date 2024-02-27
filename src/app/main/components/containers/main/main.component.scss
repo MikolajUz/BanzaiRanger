@@ -1,14 +1,16 @@
-.container{
-    display: grid;
-    grid-template-columns: 30% 70%;
-    height: 100vh;
+.container {
+  display: grid;
+  grid-template-columns: 3fr 7fr;
+  height: 100vh;
 }
 
-.element{
-    padding: 1rem;
+.element {
+  padding: 1rem;
+}
 
-} 
+.element-left {
+  border-right: 1px solid #ccc;
 
-.element-left{
-     border-right: solid 1px black ;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
 }
