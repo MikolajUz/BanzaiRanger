@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class MainComponent {
   displayedImage: string = '';
-  title = 'Tabela 1';
+  title = 'Def vs 2bb';
   columnNames = ['herovill', 'EP', 'MP', 'CO', 'BTN', 'SB'];
   tableData = [
     {
