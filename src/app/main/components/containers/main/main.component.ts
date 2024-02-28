@@ -43,7 +43,7 @@ export class MainComponent {
     },
   ];
 
-  title2 = 'Open Raise';
+  title2 = 'Open Raise 10bb all';
   columnNames2 = ['EP', 'MP', 'CO', 'BTN', 'SB'];
   tableData2 = [
     {
