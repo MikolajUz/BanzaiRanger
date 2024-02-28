@@ -12,7 +12,7 @@ export class MainComponent {
   tableData = [
     {
       herovill: 'MP',
-      EP: { path: '../../../../../assets/ranges/test2.png' },
+      EP: { path: 'assets/ranges/test2.png' },
     },
     {
       herovill: 'CO',
