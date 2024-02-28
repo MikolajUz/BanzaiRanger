@@ -47,11 +47,11 @@ export class MainComponent {
   columnNames2 = ['EP', 'MP', 'CO', 'BTN', 'SB'];
   tableData2 = [
     {
-      EP: { path: '../../../../../assets/ranges/test.png' },
-      MP: { path: '../../../../../assets/ranges/test.png' },
-      CO: { path: '../../../../../assets/ranges/test.png' },
-      BTN: { path: '../../../../../assets/ranges/test.png' },
-      SB: { path: '../../../../../assets/ranges/test.png' },
+      EP: { path: 'assets/ranges/OR/OR_EP_10_10_10_10_10_10.png' },
+      MP: { path: 'assets/ranges/OR/OR_MP_10_10_10_10_10.png' },
+      CO: { path: 'assets/ranges/OR/OR_CO_10_10_10_10.png' },
+      BTN: { path: 'assets/ranges/OR/OR_BTN_10_10_10.png' },
+      SB: { path: 'assets/ranges/OR/OR_SB_10_10.png' },
     },
   ];
 }
