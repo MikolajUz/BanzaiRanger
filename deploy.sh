@@ -7,4 +7,4 @@ cp -r dist/browser/* docs/
 
 git add .
 git commit -m "Deploy to GitHub Pages"
-git push origin master
+git push origin data_update
