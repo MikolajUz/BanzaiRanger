@@ -1,20 +1,23 @@
-<div class="mat-headline-6">{{title}}</div>
+<div class="mat-headline-6">{{ title }}</div>
 <table mat-table [dataSource]="data" class="table">
   <ng-container
     *ngFor="let columnName of columnNames"
     [matColumnDef]="columnName"
   >
     <th mat-header-cell *matHeaderCellDef>{{ columnName }}</th>
-    <td mat-cell *matCellDef="let element" >
+    <td mat-cell *matCellDef="let element">
       <ng-container *ngIf="element[columnName]?.path">
+
+        <ng-container *ngIf="element[columnName]?.path!=='-'">
         <app-button-image
           [path]="element[columnName].path"
           (imageSelected)="handleImageSelected($event)"
         ></app-button-image>
       </ng-container>
-      <ng-container *ngIf="!element[columnName]?.path"
-      
-      >
+
+
+      </ng-container>
+      <ng-container *ngIf="!element[columnName]?.path">
         {{ element[columnName] }}
       </ng-container>
     </td>

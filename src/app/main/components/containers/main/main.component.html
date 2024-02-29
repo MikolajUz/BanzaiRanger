@@ -1,15 +1,15 @@
 <div class="container">
   <div class="element" class="element-left">
     <app-pos-table
-      [columnNames]="columnNames2"
-      [data]="tableData2"
-      [title]="title2"
+      [title]="this.table[0].title"
+      [columnNames]="this.table[0].columnNames"
+      [data]="this.table[0].tableData"
       (imageSelected)="displayedImage = $event"
     ></app-pos-table>
     <app-pos-table
-      [columnNames]="columnNames"
-      [data]="tableData"
-      [title]="title"
+      [title]="this.table[1].title"
+      [columnNames]="this.table[1].columnNames"
+      [data]="this.table[1].tableData"
       (imageSelected)="displayedImage = $event"
     ></app-pos-table>
   </div>
