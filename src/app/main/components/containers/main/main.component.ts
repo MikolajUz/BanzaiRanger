@@ -28,42 +28,6 @@ export class MainComponent implements OnInit {
   displayedImage: string = '';
   columnNames = ['herovill', 'MP', 'CO', 'BTN', 'SB'];
 
-  title = 'Def vs 2bb';
-
-  tableData = [
-    {
-      herovill: 'CO',
-
-      MP: { path: '../../../../../assets/ranges/test2.png' },
-    },
-    {
-      herovill: 'BTN',
-
-      MP: { path: '../../../../../assets/ranges/test2.png' },
-      CO: { path: '../../../../../assets/ranges/test2.png' },
-    },
-
-    {
-      herovill: 'SB',
-
-      MP: { path: '../../../../../assets/ranges/test2.png' },
-      CO: { path: '../../../../../assets/ranges/test2.png' },
-      BTN: { path: '../../../../../assets/ranges/test.png' },
-    },
-    {
-      herovill: 'BB',
-
-      MP: { path: '../../../../../assets/ranges/test2.png' },
-      CO: { path: '../../../../../assets/ranges/test2.png' },
-      BTN: { path: '../../../../../assets/ranges/test2.png' },
-      SB: { path: '../../../../../assets/ranges/test2.png' },
-    },
-  ];
-
-  title2 = 'Open Raise 10bb all';
-  columnNames2 = ['MP', 'CO', 'BTN', 'SB'];
-  tableData2 = [{}];
-
   table: chartData[] = [
     {
       title: 'Open Raise',
@@ -78,8 +42,8 @@ export class MainComponent implements OnInit {
         },
         {
           herovill: '12 bb',
-          MP: { path: '-' },
-          CO: { path: '-' },
+          MP: { path: 'assets/ranges/OR/12bb_MP_open.png' },
+          CO: { path: 'assets/ranges/OR/12bb_CO_open.png' },
           BTN: { path: 'assets/ranges/OR/12bb_BU_open.png' },
           SB: { path: 'assets/ranges/OR/12bb_SB_open.png' },
         },
