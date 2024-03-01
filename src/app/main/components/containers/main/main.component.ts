@@ -83,8 +83,8 @@ export class MainComponent implements OnInit {
       tableData: [
         {
           herovill: '10 bb',
-          MP: { path: '-' },
-          CO: { path: '-' },
+          MP: { path: 'assets/ranges/DefvsAllin/DEF_BBvsMP_allin.png' },
+          CO: { path: 'assets/ranges/DefvsAllin/DEF_BBvsCO_allin.png' },
           BTN: { path: 'assets/ranges/DefvsAllin/DEF_BBvsBu_Allin.png' },
           SB: { path: 'assets/ranges/DefvsAllin/DEF_BBvsSB_allin.png' },
         },
