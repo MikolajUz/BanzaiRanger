@@ -35,10 +35,10 @@ export class MainComponent implements OnInit {
       tableData: [
         {
           herovill: '10 bb',
-          MP: { path: 'assets/ranges/OR/OR_MP_10_10_10_10_10.png' },
-          CO: { path: 'assets/ranges/OR/OR_CO_10_10_10_10.png' },
-          BTN: { path: 'assets/ranges/OR/OR_BTN_10_10_10.png' },
-          SB: { path: 'assets/ranges/OR/OR_SB_10_10.png' },
+          MP: { path: 'assets/ranges/OR/10bb_MP_open.png' },
+          CO: { path: 'assets/ranges/OR/10bb_CO_open.png' },
+          BTN: { path: 'assets/ranges/OR/10bb_BU_open.png' },
+          SB: { path: 'assets/ranges/OR/10bb_SB_open.png' },
         },
         // {
         //   herovill: '12 bb',
