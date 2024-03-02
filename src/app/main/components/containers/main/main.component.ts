@@ -31,7 +31,7 @@ export class MainComponent implements OnInit {
   table: chartData[] = [
     {
       title: 'Open Raise',
-      columnNames: ['herovill', 'MP', 'CO', 'BTN', 'SB'],
+      columnNames: this.columnNames,
       tableData: [
         {
           herovill: '10 bb',
@@ -79,7 +79,7 @@ export class MainComponent implements OnInit {
     },
     {
       title: 'Def vs AI on BB',
-      columnNames: ['herovill', 'MP', 'CO', 'BTN', 'SB'],
+      columnNames: this.columnNames,
       tableData: [
         {
           herovill: '10 bb',
@@ -122,6 +122,54 @@ export class MainComponent implements OnInit {
           CO: { path: '-' },
           BTN: { path: 'assets/ranges/DefvsAllin/20/DEF_BBvsBU_20BBAllin.png' },
           SB: { path: 'assets/ranges/DefvsAllin/20/DEF_BBvsSB_20BBAllin.png' },
+        },
+      ],
+    },
+    {
+      title: 'Def vs 2bb & 3bet',
+      columnNames: this.columnNames,
+      tableData: [
+        {
+          herovill: '10 bb',
+          MP: { path: '-' },
+          CO: { path: '-' },
+          BTN: { path: '-' },
+          SB: { path: '-' },
+        },
+        {
+          herovill: '12 bb',
+          MP: { path: '-' },
+          CO: { path: '-' },
+          BTN: { path: '-' },
+          SB: { path: '-' },
+        },
+        {
+          herovill: '14 bb',
+          MP: { path: '-' },
+          CO: { path: '-' },
+          BTN: { path: '-' },
+          SB: { path: '-' },
+        },
+        {
+          herovill: '16 bb',
+          MP: { path: '-' },
+          CO: { path: '-' },
+          BTN: { path: '-' },
+          SB: { path: '-' },
+        },
+        {
+          herovill: '18 bb',
+          MP: { path: '-' },
+          CO: { path: '-' },
+          BTN: { path: '-' },
+          SB: { path: '-' },
+        },
+        {
+          herovill: '20 bb',
+          MP: { path: '-' },
+          CO: { path: '-' },
+          BTN: { path: 'assets/ranges/Defvs2bb_vs3bet/20/DEF_BBvsBU_20BB_vs2BB.png' },
+          SB: { path: 'assets/ranges/Defvs2bb_vs3bet/20/DEF_BBvsSB_20BB_vs2BB.png' },
         },
       ],
     },
