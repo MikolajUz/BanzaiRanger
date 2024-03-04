@@ -97,8 +97,8 @@ export class MainComponent implements OnInit {
         },
         {
           herovill: '14 bb',
-          MP: { path: '-' },
-          CO: { path: '-' },
+          MP: { path: 'assets/ranges/DefvsAllin/14/DEF_BBvsMP_14BBAllin.png' },
+          CO: { path: 'assets/ranges/DefvsAllin/14/DEF_BBvsCO_14BBAllin.png' },
           BTN: { path: 'assets/ranges/DefvsAllin/14/DEF_BBvsBU_14BBAllin.png' },
           SB: { path: 'assets/ranges/DefvsAllin/14/DEF_BBvsSB_14BBAllin.png' },
         },
@@ -144,8 +144,12 @@ export class MainComponent implements OnInit {
           herovill: '12 bb',
           MP: { path: '-' },
           CO: { path: '-' },
-          BTN: { path: '-' },
-          SB: { path: '-' },
+          BTN: {
+            path: 'assets/ranges/Defvs2bb_vs3bet/12/12bb_DEF_BB_vs_BU_2x.png',
+          },
+          SB: {
+            path: 'assets/ranges/Defvs2bb_vs3bet/12/12bb_DEF_BB_vs_SB_25x.png',
+          },
         },
         {
           herovill: '14 bb',
@@ -162,15 +166,23 @@ export class MainComponent implements OnInit {
           herovill: '16 bb',
           MP: { path: '-' },
           CO: { path: '-' },
-          BTN: { path: '-' },
-          SB: { path: '-' },
+          BTN: {
+            path: 'assets/ranges/Defvs2bb_vs3bet/16/16bb_DEF_BB_vs_BU_2x.png',
+          },
+          SB: {
+            path: 'assets/ranges/Defvs2bb_vs3bet/16/16bb_DEF_BB_vs_SB_25x.png',
+          },
         },
         {
           herovill: '18 bb',
           MP: { path: '-' },
           CO: { path: '-' },
-          BTN: { path: '-' },
-          SB: { path: '-' },
+          BTN: {
+            path: 'assets/ranges/Defvs2bb_vs3bet/18/DEF_BBvsBU_18BB_vs2BB.png',
+          },
+          SB: {
+            path: 'assets/ranges/Defvs2bb_vs3bet/18/DEF_BBvsSB_18BB_vs2BB.png',
+          },
         },
         {
           herovill: '20 bb',
