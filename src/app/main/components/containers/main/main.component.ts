@@ -104,22 +104,22 @@ export class MainComponent implements OnInit {
         },
         {
           herovill: '16 bb',
-          MP: { path: '-' },
-          CO: { path: '-' },
+          MP: { path: 'assets/ranges/DefvsAllin/16/DEF_BBvsMP_16BBAllin.png' },
+          CO: { path: 'assets/ranges/DefvsAllin/16/DEF_BBvsCO_16BBAllin.png' },
           BTN: { path: 'assets/ranges/DefvsAllin/16/DEF_BBvsBU_16BBAllin.png' },
           SB: { path: 'assets/ranges/DefvsAllin/16/DEF_BBvsSB_16BBAllin.png' },
         },
         {
           herovill: '18 bb',
-          MP: { path: '-' },
-          CO: { path: '-' },
-          BTN: { path: 'assets/ranges/DefvsAllin/18/DEF_BBvsBU_16BBAllin.png' },
-          SB: { path: 'assets/ranges/DefvsAllin/18/DEF_BBvsSB_16BBAllin.png' },
+          MP: { path: 'assets/ranges/DefvsAllin/18/DEF_BBvsMP_18BBAllin.png' },
+          CO: { path: 'assets/ranges/DefvsAllin/18/DEF_BBvsCO_18BBAllin.png' },
+          BTN: { path: 'assets/ranges/DefvsAllin/18/DEF_BBvsBU_18BBAllin.png' },
+          SB: { path: 'assets/ranges/DefvsAllin/18/DEF_BBvsSB_18BBAllin.png' },
         },
         {
           herovill: '20 bb',
-          MP: { path: '-' },
-          CO: { path: '-' },
+          MP: { path: 'assets/ranges/DefvsAllin/20/DEF_BBvsMP_20BBAllin.png' },
+          CO: { path: 'assets/ranges/DefvsAllin/20/DEF_BBvsCO_20BBAllin.png' },
           BTN: { path: 'assets/ranges/DefvsAllin/20/DEF_BBvsBU_20BBAllin.png' },
           SB: { path: 'assets/ranges/DefvsAllin/20/DEF_BBvsSB_20BBAllin.png' },
         },
@@ -186,8 +186,12 @@ export class MainComponent implements OnInit {
         },
         {
           herovill: '20 bb',
-          MP: { path: '-' },
-          CO: { path: '-' },
+          MP: {
+            path: 'assets/ranges/Defvs2bb_vs3bet/20/DEF_BBvsMP_20BB_vs2BB.png',
+          },
+          CO: {
+            path: 'assets/ranges/Defvs2bb_vs3bet/20/DEF_BBvsCO_20BB_vs2BB.png',
+          },
           BTN: {
             path: 'assets/ranges/Defvs2bb_vs3bet/20/DEF_BBvsBU_20BB_vs2BB.png',
           },
