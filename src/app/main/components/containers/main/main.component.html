@@ -12,6 +12,12 @@
       [data]="this.table[1].tableData"
       (imageSelected)="displayedImage = $event"
     ></app-pos-table>
+    <app-pos-table
+      [title]="this.table[2].title"
+      [columnNames]="this.table[2].columnNames"
+      [data]="this.table[2].tableData"
+      (imageSelected)="displayedImage = $event"
+    ></app-pos-table>
   </div>
   <div class="element">
     <app-range-viewer [selectedImage]="displayedImage"></app-range-viewer>
